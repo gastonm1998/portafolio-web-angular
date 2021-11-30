@@ -1,0 +1,13 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.presentacion{
+
+    margin-top: 0;
+    height: 50vh;
+    width: 75%;
+    border:  5px solid green;
+    border-radius: 5px;
+}
