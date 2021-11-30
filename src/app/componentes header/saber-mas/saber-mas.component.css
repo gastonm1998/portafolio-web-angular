@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    max-height: 10%;
+    max-height: 15%;
 
-    height: 10%;
+    height: 13%;
     border: 5px solid blue;
 }
 .texto{
     color: white;
     text-align: center;
-    
+    margin-top: 2.8rem;
+    font-size: 1.3rem;
 }
