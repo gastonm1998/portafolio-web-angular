@@ -1,0 +1,14 @@
+.container{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 10%;
+
+    height: 10%;
+    border: 5px solid blue;
+}
+.texto{
+    color: white;
+    text-align: center;
+    
+}
