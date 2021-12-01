@@ -8,6 +8,7 @@ import { CartelPortafolioComponent } from './componentes header/cartel-portafoli
 import { SaberMasComponent } from './componentes header/saber-mas/saber-mas.component';
 import { FlechaContinuarComponent } from './componentes header/flecha-continuar/flecha-continuar.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { InicioComponent } from './inicio/inicio.component';
     CartelPortafolioComponent,
     SaberMasComponent,
     FlechaContinuarComponent,
-    InicioComponent
+    InicioComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule
