@@ -1,26 +1,90 @@
 .container{
-    margin: 0;
+    
     padding: 0;
     border: 5px solid greenyellow;
-    width: 100%;
+    
     height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+/*contenedor de acordeones*/
+/*.cursos{
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    
+
+
+    border:  5px solid #EEEEEE;
+    border-radius: 10px;
+}*/
+/* configuracion acordeon*/
+.accordion-item{
+    
+    margin-bottom: 2rem;
+}
+
 .accordion-button{
     background-color:#6D9886 ;
     border: 5px solid orange;
+    /*background-color: rgba(255, 255, 255, 0.3);
+    height: 400px;
+    backdrop-filter: blur(20px);
+    border: solid 1px rgba(255, 255, 255, 0.5); 
+    border-radius: 5px;*/
+    
+    
     
 }
 
+
+
+
 .accordion-body{
     background-color: rebeccapurple;
+    
 }
+
 .texto-accordion{
     /*text-align: center;*/
-    margin: 0;
+    /*margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+    text-align: center;
+    display: inline-block;
+    width: 100%;
 }
+
+
+
+/*configuracion cartas*/
+.card{
+    border: 5px solid orangered;
+}
+
+.card-body{
+    background-color: paleturquoise;
+}
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+
+}
+
+.card-link{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
 #logojs{
     color: orange;
     padding-right: 1rem;
