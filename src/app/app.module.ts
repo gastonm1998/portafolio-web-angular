@@ -9,6 +9,11 @@ import { SaberMasComponent } from './componentes header/saber-mas/saber-mas.comp
 import { FlechaContinuarComponent } from './componentes header/flecha-continuar/flecha-continuar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { ImagenComponent } from './presentacion/imagen/imagen.component';
+import { ExperienciaComponent } from './presentacion/experiencia/experiencia.component';
+import { EducacionComponent } from './presentacion/educacion/educacion.component';
+import { SoftSkillsComponent } from './presentacion/soft-skills/soft-skills.component';
+import { HardSkillsComponent } from './presentacion/hard-skills/hard-skills.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { AboutMeComponent } from './about-me/about-me.component';
     SaberMasComponent,
     FlechaContinuarComponent,
     InicioComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ImagenComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    SoftSkillsComponent,
+    HardSkillsComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,27 @@
+.container{
+    margin: 0;
+    padding: 0;
+    border: 5px solid greenyellow;
+    width: 100%;
+    height: auto;
+}
+.accordion-button{
+    background-color:#6D9886 ;
+    border: 5px solid orange;
+    
+}
+
+.accordion-body{
+    background-color: rebeccapurple;
+}
+.texto-accordion{
+    /*text-align: center;*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logojs{
+    color: orange;
+    padding-right: 1rem;
+}
