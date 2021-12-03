@@ -82,10 +82,40 @@
 
 
 
-
+/* logos*/
 
 
 #logojs{
-    color: orange;
-    padding-right: 1rem;
+    color: #F0DB4F;
+    padding-right: 0.5rem;
+}
+
+#logo-py{
+    color: #F0DB4F;
+    padding-right: 0.5rem;
+}
+
+#logo-html{
+    color: #F0DB4F;
+    padding-right: 0.5rem;
+}
+
+#logo-css{
+    color: #F0DB4F;
+    padding-right: 0.5rem;
+}
+
+#logo-iot{
+    color: #F0DB4F;
+    padding-right: 0.5rem;
+}
+
+#logo-database{
+    color: #F0DB4F;
+    padding-right: 0.5rem;
+}
+
+#logo-comp{
+    color: #F0DB4F;
+    padding-right: 0.5rem;
 }
