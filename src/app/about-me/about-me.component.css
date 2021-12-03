@@ -13,27 +13,4 @@
     border: 5px solid hotpink;
 }
 
-.contenedor-imagen{
-    /*margin: 0;
-    padding: 0;*/
-    border: 5px solid salmon;
-    margin: 0;
-    padding: 0;  
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.descripcion-imagen{
-    
-    width: 50%;
-    height: auto;
-    text-align: center;
-    font-size: 1.5rem;
-  
-
-    border:  5px solid #EEEEEE;
-    border-radius: 10px;
-}

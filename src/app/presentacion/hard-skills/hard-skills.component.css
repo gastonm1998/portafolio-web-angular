@@ -41,7 +41,7 @@
 
 
 .accordion-body{
-    background-color: rebeccapurple;
+    background-color: white;
     
 }
 
@@ -59,8 +59,10 @@
 
 
 /*configuracion cartas*/
+
 .card{
     border: 5px solid orangered;
+    border-radius: 10px;
 }
 
 .card-body{
@@ -71,7 +73,9 @@
 }
 
 .card-text{
-
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 .card-link{
@@ -91,31 +95,36 @@
 }
 
 #logo-py{
-    color: #F0DB4F;
+    color: green;
     padding-right: 0.5rem;
 }
 
 #logo-html{
-    color: #F0DB4F;
+    color: #F06529;
     padding-right: 0.5rem;
 }
 
 #logo-css{
-    color: #F0DB4F;
+    color: #66D3FA;
     padding-right: 0.5rem;
 }
 
 #logo-iot{
-    color: #F0DB4F;
+    color: blue;
     padding-right: 0.5rem;
 }
 
 #logo-database{
-    color: #F0DB4F;
+    color: rgb(255, 217, 0);
     padding-right: 0.5rem;
 }
 
 #logo-comp{
-    color: #F0DB4F;
+    color: black;
     padding-right: 0.5rem;
+}
+#card-interior-icon{
+    width: 100%;
+    text-align: center;
+
 }
