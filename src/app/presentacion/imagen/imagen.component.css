@@ -2,34 +2,53 @@
     
     
     margin: 0;
-    padding-top: 20%;
+    /*padding-top: 20%;*/
     border: 5px solid green;
-
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+   
+   
 
 }
 
 .imagen_presentacion{
     height: 200px;
     width: 200px;
-    
+    border-radius: 100px;
+    border: 5px solid #EEEEEE;
 }
 
 .contenedor-imagen{
+    border: 5px solid springgreen;
+   
+    margin: 1.5rem;
+}
+
+
+
+
+
+
+
+
+.contenedor-texto{
     /*margin: 0;
     padding: 0;*/
-    border: 5px solid salmon;
+    border: 5px solid rgb(59, 44, 197);
     margin: 0;
     padding: 0;  
     height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 70%;
+    
+    /*justify-content: center;
+    align-items: center;*/
 }
 
 .descripcion-imagen{
     
-    width: 50%;
+   
     height: auto;
     text-align: center;
     font-size: 1.5rem;
