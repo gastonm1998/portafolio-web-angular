@@ -14,6 +14,8 @@ import { ExperienciaComponent } from './presentacion/experiencia/experiencia.com
 import { EducacionComponent } from './presentacion/educacion/educacion.component';
 import { SoftSkillsComponent } from './presentacion/soft-skills/soft-skills.component';
 import { HardSkillsComponent } from './presentacion/hard-skills/hard-skills.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { DescripcionesComponent } from './componentes-proyecto/descripciones/descripciones.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { HardSkillsComponent } from './presentacion/hard-skills/hard-skills.comp
     ExperienciaComponent,
     EducacionComponent,
     SoftSkillsComponent,
-    HardSkillsComponent
+    HardSkillsComponent,
+    ProyectosComponent,
+    DescripcionesComponent
   ],
   imports: [
     BrowserModule
