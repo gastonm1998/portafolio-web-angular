@@ -2,19 +2,42 @@
     <!--carousel 1-->
     <div class="carousel slide" id="carousel-01" data-bs-ride="carousel">
 
+        <!--indicacores carousel-->
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-01" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-01" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-01" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+
         <div class="carousel-inner">
 
             <!--proyecto 1-->
 
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-interval="1000">
 
                 <img src="../../assets/prueba1.jpg" alt="proyecto1" class="d-block w-100">
+
+                <!--comentarios-->
+                <div class="carousel-caption">
+                    <h2>Proyecto portafolio  v1.0</h2>
+
+                    <div class="iconos-proyecto text-center  ">
+                        <i class="fab fa-html5 fa-2x "></i>
+                        <i class="fab fa-css3-alt fa-2x"></i>
+                        <i class="fab fa-js-square fa-2x"></i>
+                        <i class="fab fa-angular fa-2x"></i>
+                    </div>
+
+                    <h4>boton de ver mas</h4>
+                </div>
 
             </div>
 
             <!--proyecto 2-->
 
-            <div class="carousel-item ">
+            <div class="carousel-item " data-interval="1000">
 
                 <img src="../../assets/prueba2.jpg" alt="proyecto1" class="d-block w-100">
 
@@ -23,7 +46,7 @@
 
             <!--proyecto 3-->
 
-            <div class="carousel-item ">
+            <div class="carousel-item " data-interval="1000">
 
                 <img src="../../assets/prueba3.jpg" alt="proyecto1" class="d-block w-100">
 
@@ -31,6 +54,23 @@
 
         </div>
 
+        <!--controles carousel-->
+
+        <a href="#carousel-01" class="carousel-control-prev" data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+
+            <span class="sr-only"> anterior </span>
+
+        </a>
+
+        <a href="#carousel-01" class="carousel-control-next" data-bs-slide="next">
+
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+            <span class="sr-only"> siguiente </span>
+
+        </a>
 
     </div>
 </div> 
