@@ -34,15 +34,18 @@
 .experiencia{
     margin: 5%;
     
-    border: 5px solid rgb(238, 255, 0);
+    border: 2px solid rgb(136, 135, 135);;
+    
     width: 300px;
     height: auto;
-    
+    background-color: white;
 }
 .educacion{
     margin: 5%;
     
-    border: 5px solid rgb(17, 158, 224);
+    border: 2px solid rgb(136, 135, 135);
+    background-color: white;
+    border-radius: 30px;
     width: 300px;
     height: auto;
     
