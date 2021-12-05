@@ -1,0 +1,49 @@
+.container{
+    border: 5px solid blue;
+    width: 100%;
+    
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.titulo{
+
+    width: 100%;
+    text-align: center;
+    height: auto;
+    border: 5px solid rgb(17, 224, 34);
+    position: relative;
+}
+
+.cartas{
+    margin: 0;
+    padding: 0;
+    border: 5px solid rgb(224, 17, 17);
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+.experiencia{
+    margin: 5%;
+    
+    border: 5px solid rgb(238, 255, 0);
+    width: 300px;
+    height: auto;
+    
+}
+.educacion{
+    margin: 5%;
+    
+    border: 5px solid rgb(17, 158, 224);
+    width: 300px;
+    height: auto;
+    
+}

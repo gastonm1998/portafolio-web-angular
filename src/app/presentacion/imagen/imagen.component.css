@@ -1,27 +1,40 @@
 .container{
     
     
-    margin: 0;
+    
     /*padding-top: 20%;*/
-    border: 5px solid green;
+    
+    border-radius: 10px;
     display: flex;
     
     align-items: center;
     justify-content: center;
-   
-   
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+}
 
+.about-me{
+    
+    color: black;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .imagen_presentacion{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 100px;
-    border: 5px solid #EEEEEE;
+    border: 5px solid green;
 }
 
 .contenedor-imagen{
-    border: 5px solid springgreen;
+    border: 5px solid #b70e21;
    
     margin: 1.5rem;
 }
@@ -36,7 +49,7 @@
 .contenedor-texto{
     /*margin: 0;
     padding: 0;*/
-    border: 5px solid rgb(59, 44, 197);
+    
     margin: 0;
     padding: 0;  
     height: auto;
@@ -50,10 +63,15 @@
     
    
     height: auto;
+
+    color: black;
+
+    border:  2px solid rgb(136, 135, 135);
+    border-radius: 30px;
+    background-color: white;
+}
+.descripcion-imagen p{
     text-align: center;
     font-size: 1.5rem;
-  
-
-    border:  5px solid #EEEEEE;
-    border-radius: 10px;
+    padding: 2rem;
 }

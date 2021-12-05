@@ -3,15 +3,16 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    max-height: 10%;
-   
+    
+    height: auto;
     text-align: center;
+    
     
 }
 
 .fas{
     
-    margin-top: 0.7rem;
+    padding-top: 1rem;
     color: #EEEEEE;
     
 }
