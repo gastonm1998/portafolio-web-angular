@@ -1,8 +1,10 @@
 
-.prueba{
+.container{
     /*color: #616469;*/
     color: #00ADB5;
     border: 5px solid hotpink;
+    width: 100%;
+    
 }
 
 

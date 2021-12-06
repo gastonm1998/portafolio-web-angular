@@ -16,6 +16,7 @@ import { SoftSkillsComponent } from './presentacion/soft-skills/soft-skills.comp
 import { HardSkillsComponent } from './presentacion/hard-skills/hard-skills.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { DescripcionesComponent } from './componentes-proyecto/descripciones/descripciones.component';
+import { ContactameComponent } from './contactame/contactame.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { DescripcionesComponent } from './componentes-proyecto/descripciones/des
     SoftSkillsComponent,
     HardSkillsComponent,
     ProyectosComponent,
-    DescripcionesComponent
+    DescripcionesComponent,
+    ContactameComponent
   ],
   imports: [
     BrowserModule
