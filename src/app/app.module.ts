@@ -18,6 +18,7 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { DescripcionesComponent } from './componentes-proyecto/descripciones/descripciones.component';
 import { ContactameComponent } from './contactame/contactame.component';
 import { DescripcionSenkuComponent } from './descripcion-senku/descripcion-senku.component';
+import { DescripcionAnubisComponent } from './descripcion-anubis/descripcion-anubis.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { DescripcionSenkuComponent } from './descripcion-senku/descripcion-senku
     ProyectosComponent,
     DescripcionesComponent,
     ContactameComponent,
-    DescripcionSenkuComponent
+    DescripcionSenkuComponent,
+    DescripcionAnubisComponent
   ],
   imports: [
     BrowserModule
