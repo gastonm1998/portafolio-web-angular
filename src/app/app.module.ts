@@ -17,6 +17,7 @@ import { HardSkillsComponent } from './presentacion/hard-skills/hard-skills.comp
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { DescripcionesComponent } from './componentes-proyecto/descripciones/descripciones.component';
 import { ContactameComponent } from './contactame/contactame.component';
+import { DescripcionSenkuComponent } from './descripcion-senku/descripcion-senku.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ContactameComponent } from './contactame/contactame.component';
     HardSkillsComponent,
     ProyectosComponent,
     DescripcionesComponent,
-    ContactameComponent
+    ContactameComponent,
+    DescripcionSenkuComponent
   ],
   imports: [
     BrowserModule
