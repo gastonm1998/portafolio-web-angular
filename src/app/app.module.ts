@@ -19,6 +19,7 @@ import { DescripcionesComponent } from './componentes-proyecto/descripciones/des
 import { ContactameComponent } from './contactame/contactame.component';
 import { DescripcionSenkuComponent } from './descripcion-senku/descripcion-senku.component';
 import { DescripcionAnubisComponent } from './descripcion-anubis/descripcion-anubis.component';
+import { NgwWowModule } from 'ngx-wow'; 
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { DescripcionAnubisComponent } from './descripcion-anubis/descripcion-anu
     DescripcionAnubisComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgwWowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
